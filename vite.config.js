@@ -10,6 +10,7 @@ export default defineConfig({
     alias: [{ find: '@raptor', replacement: path.resolve(__dirname, 'src') }]
   },
   test: {
+    globals: true,
     environment: 'jsdom',
   },
 })
