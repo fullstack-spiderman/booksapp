@@ -16,7 +16,8 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './tests/setup.js',
     coverage: {
-      provider: 'v8' // or 'istanbul'
+      provider: 'v8', // or 'istanbul'
+      reporter: ["default", "html"]  // ['text', 'json', 'html'],
     },
   },
 })
