@@ -6,5 +6,5 @@
       "@raptor/*": ["./src/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }
