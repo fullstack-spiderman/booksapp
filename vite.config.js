@@ -8,5 +8,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [{ find: '@raptor', replacement: path.resolve(__dirname, 'src') }]
-  }
+  },
+  test: {
+    environment: 'jsdom',
+  },
 })
