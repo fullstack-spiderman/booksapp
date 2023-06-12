@@ -17,7 +17,7 @@ export default defineConfig({
     setupFiles: './tests/setup.js',
     coverage: {
       provider: 'v8', // or 'istanbul'
-      reporter: ["default", "html"]  // ['text', 'json', 'html'],
+      reporter: ['text', 'json', 'html'],
     },
   },
 })
