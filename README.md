@@ -70,7 +70,7 @@ Run End-ToEnd (E2E) tests in CLI
   pnpm run e2e:run
 ```
 
-Run linter(s)
+Run Static Analysis tests using linter(s)
 
 ```bash
   pnpm run lint
