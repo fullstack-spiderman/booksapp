@@ -9,6 +9,8 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
     "build": "vite build",
+    "e2e": "npx cypress open",
+    "e2e:run": "npx cypress run",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
