@@ -1,7 +1,7 @@
 
 # BooksApp
 
-Template file for React.js project with Vitest and RTL
+Template file for React.js project with Vitest, RTL and Cypress
 
 ## Authors
 
