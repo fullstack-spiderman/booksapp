@@ -13,8 +13,8 @@ export default function Increment()
         <h3>Increment</h3>
         <h5>Count: { count }</h5>
           <button onClick={ handleIncrement }>Increment</button>
-        <button onClick={handledecrement}>Increment</button>
-        <button onClick={handleReset}>Increment</button>
+        <button onClick={handledecrement}>Decrement</button>
+        <button onClick={handleReset}>Reset</button>
       </>
   )
 }
